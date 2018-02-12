@@ -14,14 +14,16 @@ $rand_keys = array_rand($input, 2);
 
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta charset="UTF-8">
 <title>FYMMMALL</title>
-
+	</head>
+	<body>
 <div style="width: 1500px" align="center">
 	<div align="center">
 		<p>
