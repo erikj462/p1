@@ -27,26 +27,32 @@ $rand_keys = array_rand($input, 2);
 	<body>
 <div class="body">
 	
-		<p>
-	        Today is <?php echo $day; ?>; it's time to <?php echo $toDo; ?>.
-	    </p>
+	<blockquote>
+		Today is <?php echo $day; ?>; it's time to <?php echo $toDo; ?>.
+	   
+	</blockquote>
+	        
 	    
-	    <p><h1>Erik Johnson</h1></p>
+	  <h1>Erik Johnson</h1>
 	    
-	    <p>    
+	        
 	        <img src="images/hat.jpeg" alt="picture">
-	    </p>
+	    
 
-		 <p><h1>About Me</h1></p>
-	    	<p><h3>I was born in North Carolina but I now live in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. </h3></p>	
+		 <h1>About Me</h1>
+	    	<p>
+	    		<h3>
+	    			I was born in North Carolina but I now live in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. 
+	    		</h3>
+	    	</p>	
 	
-	
-	     <p><h1>Random Quote</h1></p>
-	    <p>
+	<h1>Random Quote</h1>
+	     <blockquote>
 	    	<?php 
 	    	echo $input[$rand_keys[0]] . "\n";
 			?>
-	    </p>
+	    </blockquote>
+	   
 
 	
 </div>
