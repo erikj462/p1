@@ -19,10 +19,10 @@ $rand_keys = array_rand($input, 2);
 <head>
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
 <meta charset="UTF-8">
 
-<title>FYMMMALL</title>
+<title>erik johnson</title>
 	</head>
 	<body>
 <div class="body">
@@ -40,11 +40,11 @@ $rand_keys = array_rand($input, 2);
 	    
 
 		 <h1>About Me</h1>
-	    	<p>
+	    	
 	    		<h3>
-	    			I was born in North Carolina but I now live in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. 
+	    			I was born in North Carolina but I now reside in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. 
 	    		</h3>
-	    	</p>	
+	    	
 	
 	<h1>Random Quote</h1>
 	     <blockquote>
