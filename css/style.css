@@ -1,9 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-body {
-    background-color:yellow;
+h1, h2, h3 {
+	text-align: center;
+	
+}
+.body {
+    width:auto;
+	min-width:600px;
+	margin-bottom:50px;
+	text-align:center;
+	
 }
 
 
+img {
+	display:block;
+	margin:auto;
+	width:300px;
+	height: 250px;
+}

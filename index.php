@@ -21,30 +21,26 @@ $rand_keys = array_rand($input, 2);
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta charset="UTF-8">
+
 <title>FYMMMALL</title>
 	</head>
 	<body>
-<div style="width: 1500px" align="center">
-	<div align="center">
+<div class="body">
+	
 		<p>
 	        Today is <?php echo $day; ?>; it's time to <?php echo $toDo; ?>.
 	    </p>
 	    <p><h1>Erik Johnson</h1></p>
 	    <p>    
-	        <img src="images/hat.jpeg">
+	        <img src="images/hat.jpeg" alt="picture">
 	    </p>
 
-
-	</div>
-	<br>
-	<br>
-	<div style="width: 500px" align="center">
 		 <p><h1>About Me</h1></p>
-	    	<p> I was born in North Carolina but I now live in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. </p>	
-	</div>
+	    	<p><h3>I was born in North Carolina but I now live in South Carolina. I like to read books, travel, and having intellectual conversations. Over the last few years while living in South Carolina i have successfully grown okra hydroponically, mastered the art of making moonshine, learned how to buy tax properties for pennies on the dollar, and realized there is a decent amount of money in shipping pallets. </h3></p>	
+	
 	<br>
 	<br>
-	<div align="center">
+	
 	     <p><h1>Random Quote</h1></p>
 	    <p>
 	    	<?php 
@@ -52,11 +48,11 @@ $rand_keys = array_rand($input, 2);
 			?>
 	    </p>
 
-	</div>
+	
 </div>
 
 
 	</body>
-<?php include_once("template_footer.php"); ?>
+
 
 </html>
